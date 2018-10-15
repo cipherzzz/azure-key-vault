@@ -1,0 +1,24 @@
+{
+  "name": "apad-key-vault",
+  "version": "1.0.0",
+  "description": "A simple APAD key vault to store sensitive information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adal-node": "^0.1.22",
+    "async": "0.2.7",
+    "azure-arm-authorization": "3.1.1",
+    "azure-arm-keyvault": "^0.11.4",
+    "azure-arm-resource": "^1.4.4-preview",
+    "azure-graph": "1.1.1",
+    "azure-keyvault": "^0.11.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.15.1",
+    "ms-rest": "^1.15.0",
+    "ms-rest-azure": "^1.15.0"
+  }
+}
